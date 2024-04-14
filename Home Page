@@ -3,15 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignments</title>
+    <title>Home</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+        li {
+            font-size: 18px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Assignments</h1>
+  <h1>Homepage</h2>
+  <h2>Assignments</h2>
     <ul>
-        <li><a href="https://programmingtrick.com/html-assignments">Flexbox Froggy</a></li>
-        <li><a href="https://programmingtrick.com/html-assignments">CSS Diner</a></li>
-        <li><a href="https://programmingtrick.com/html-assignments">CSS Grid Garden</a></li>
-        <!-- Add more assignment links here -->
+        <li>Flexbox Froggy</li>
+        <li>CSS Diner</li>
+        <li>CSS Grid Garden</li>
     </ul>
+    <img src="Screenshot 2024-04-10 171337.png" alt="Flexbox Froggy Screenshot">
+    <img src="Screenshot 2024-03-14 103212.png" alt="CSS Diner Screenshot">
+    <img src="Screenshot 2024-04-13 134109.png" alt="Grid Garden Screenshot">
 </body>
 </html>
