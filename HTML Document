@@ -64,7 +64,7 @@
             <img src="https://nypost.com/wp-content/uploads/sites/2/2023/02/lebron-3.jpg?w=1024" alt="LBJ breaking the scoing record">
             <nav>
                 <ul>
-                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="Home.html" title="Home">Home</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/LeBron_James" title="About" target="_blank">About</a></li>
                     <li><a href="mailto:your@email.com" title="Contact">Contact</a></li>
                 </ul>
