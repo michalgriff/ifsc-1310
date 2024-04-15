@@ -1,1 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Michal Griffith's Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home Directory for all of IFSC 1310 Assignments">
+    <meta name="author" content="Michal Griffith">
+    <style>
+        .header {
+            background-color: #658ea7;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        h3 {
+            font-size: 30px;
+            color: #333;
+            text-align: center;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 128px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar a.active {
+            background-color: #658ea7;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header></header>
+        <main>
+            <section id="content">
+                <h3><em>Michal's Assignments</em></h3>
+                <div class="navbar">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#codingGames">Coding Games</a>
+                    <a href="#exercises">Exercises</a>
+                    <a href="#documents">Documents</a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
 
