@@ -79,7 +79,7 @@ header.primary h1 a {
     width: 448px;
     height: 257px;
     margin: 0 auto;
-    background: url(../img/segwaylogo.png);
+    background: url(img/segwaylogo.png);
     text-indent: 110%;
     white-space: nowrap;
     overflow: hidden;
